@@ -10,7 +10,7 @@ namespace GetType
     {
         static void Main(string[] args)
         {
-            string aStringValue = "01/01/2013";
+            string aStringValue = "01/01/2012";
             object obj = (object) aStringValue;
             Console.WriteLine(obj.GetType().ToString());
             Console.ReadLine();
