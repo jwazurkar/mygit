@@ -14,6 +14,7 @@ namespace GetType
             object obj = (object) aStringValue;
             Console.WriteLine(obj.GetType().ToString());
             Console.ReadLine();
+            Console.WriteLine();
         }
     }
 }
